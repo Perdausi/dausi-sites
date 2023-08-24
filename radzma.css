@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+p{
+    font-size: 8px;
+    line-height: 6px;
+    text-align: justify;
+    background: url(images/logo/BE2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+@media (max-width:35em){
+
+
+    p{
+        font-size: 5px;
+        line-height: 2px;
+        text-align: justify;
+        background: url(images/logo/BE2.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    }
+}
